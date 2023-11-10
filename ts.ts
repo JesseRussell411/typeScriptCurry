@@ -57,3 +57,7 @@ console.log(cob(8)("9 ")("9"));
 console.log(cob(8)("9 ")("9 "));
 console.log(cob(8)("8 ")("8 "));
 console.log(cob(8)("8 ", "8"));
+console.log(cob(8, "8 ", "8"));
+console.log(cob()(8, "8 ", "8"));
+console.log(cob()()(8, "8 ", "8"));
+console.log(cob()(8)("8 ", "8"));
